@@ -3,10 +3,10 @@
 **Goal:** Memory corruption, buffer overflows, ROP chains.
 
 * **Essential Tools:**
-* **GDB + GEF:** Standard GDB is unusable for CTFs. You need GEF (GDB Enhanced Features) or Pwndbg to visualize the stack and registers.
-* **Pwntools:** The absolute standard Python library for writing exploit scripts.
-* **Checksec:** Checks binary protections (NX, Canary, PIE).
-* **ROPgadget:** Finds gadgets (small code snippets) for ROP chains.
+  * **GDB + GEF:** Standard GDB is unusable for CTFs. You need GEF (GDB Enhanced Features) or Pwndbg to visualize the stack and registers.
+  * **Pwntools:** The absolute standard Python library for writing exploit scripts.
+  * **Checksec:** Checks binary protections (NX, Canary, PIE).
+  * **ROPgadget:** Finds gadgets (small code snippets) for ROP chains.
 
 
 * **Setup:**
